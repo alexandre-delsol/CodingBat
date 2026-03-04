@@ -325,5 +325,25 @@ public class TestHarness {
         System.out.println(SortaSum.sortaSum(3,4));
         System.out.println(SortaSum.sortaSum(90,4));
         System.out.println(SortaSum.sortaSum(10,11));
+        System.out.println("alarmClock tests");
+        System.out.println(AlarmClock.alarmClock(1,false));
+        System.out.println(AlarmClock.alarmClock(5,false));
+        System.out.println(AlarmClock.alarmClock(0,false));
+        System.out.println("Love6 tests");
+        System.out.println(Love6.love6(6,4));
+        System.out.println(Love6.love6(4,5));
+        System.out.println(Love6.love6(1,5));
+        System.out.println("in1To10 tests");
+        System.out.println(In1To10.in1To10(5,true));
+        System.out.println(In1To10.in1To10(11,false));
+        System.out.println(In1To10.in1To10(11,true));
+        System.out.println("specialEleven tests");
+        System.out.println(SpecialEleven.specialEleven(22));
+        System.out.println(SpecialEleven.specialEleven(23));
+        System.out.println(SpecialEleven.specialEleven(24));
+        System.out.println("More20 tests");
+        System.out.println(More20.more20(20));
+        System.out.println(More20.more20(21));
+        System.out.println(More20.more20(22));
     }
 }
