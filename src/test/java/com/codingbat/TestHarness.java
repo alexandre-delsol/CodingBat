@@ -345,5 +345,17 @@ public class TestHarness {
         System.out.println(More20.more20(20));
         System.out.println(More20.more20(21));
         System.out.println(More20.more20(22));
+        System.out.println("Old35 tests");
+        System.out.println(Old35.old35(3));
+        System.out.println(Old35.old35(10));
+        System.out.println(Old35.old35(15));
+        System.out.println("Less20 tests");
+        System.out.println(Less20.less20(18));
+        System.out.println(Less20.less20(19));
+        System.out.println(Less20.less20(20));
+        System.out.println("NearTen tests");
+        System.out.println(NearTen.nearTen(12));
+        System.out.println(NearTen.nearTen(17));
+        System.out.println(NearTen.nearTen(19));
     }
 }
