@@ -357,13 +357,17 @@ public class TestHarness {
         System.out.println(NearTen.nearTen(12));
         System.out.println(NearTen.nearTen(17));
         System.out.println(NearTen.nearTen(19));
-        System.out.println("TeenSum");
+        System.out.println("TeenSum tests");
         System.out.println(TeenSum.teenSum(3,4));
         System.out.println(TeenSum.teenSum(10,13));
         System.out.println(TeenSum.teenSum(13,2));
-        System.out.println("AnswerCell");
+        System.out.println("AnswerCell tests");
         System.out.println(AnswerCell.answerCell(false,false,false));
         System.out.println(AnswerCell.answerCell(false,false,true));
         System.out.println(AnswerCell.answerCell(true,false,false));
+        System.out.println("teaParty tests");
+        System.out.println(TeaParty.teaParty(6,8));
+        System.out.println(TeaParty.teaParty(3,8));
+        System.out.println(TeaParty.teaParty(20,6));
     }
 }
