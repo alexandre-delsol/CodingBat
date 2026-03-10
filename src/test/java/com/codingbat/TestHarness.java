@@ -369,5 +369,9 @@ public class TestHarness {
         System.out.println(TeaParty.teaParty(6,8));
         System.out.println(TeaParty.teaParty(3,8));
         System.out.println(TeaParty.teaParty(20,6));
+        System.out.println("fizzString tests");
+        System.out.println(FizzString.fizzString("fig"));
+        System.out.println(FizzString.fizzString("dib"));
+        System.out.println(FizzString.fizzString("fib"));
     }
 }
