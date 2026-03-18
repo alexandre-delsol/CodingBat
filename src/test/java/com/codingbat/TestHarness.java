@@ -377,5 +377,8 @@ public class TestHarness {
         System.out.println(FizzString2.fizzString2(1));
         System.out.println(FizzString2.fizzString2(2));
         System.out.println(FizzString2.fizzString2(3));
+        System.out.println(TwoAsOne.twoAsOne(1,2,3));
+        System.out.println(TwoAsOne.twoAsOne(3,1,2));
+        System.out.println(TwoAsOne.twoAsOne(3,2,2));
     }
 }
