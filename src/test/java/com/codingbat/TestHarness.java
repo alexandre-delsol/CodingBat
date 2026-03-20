@@ -385,5 +385,9 @@ public class TestHarness {
         System.out.println(InOrder.inOrder(1,2,3,false));
         System.out.println(InOrder.inOrder(1,2,1,false));
         System.out.println(InOrder.inOrder(1,1,2,false));
+        System.out.println("InOrderEqual tests");
+        System.out.println(InOrderEqual.inOrderEqual(2,5,11,false));
+        System.out.println(InOrderEqual.inOrderEqual(2,7,6,false));
+        System.out.println(InOrderEqual.inOrderEqual(5,5,7,true));
     }
 }
