@@ -393,5 +393,9 @@ public class TestHarness {
         System.out.println(LastDigitLogic.lastDigit(23,19,13));
         System.out.println(LastDigitLogic.lastDigit(23,19,12));
         System.out.println(LastDigitLogic.lastDigit(23,19,3));
+        System.out.println("lessBy10 tests");
+        System.out.println(LessBy10.lessBy10(1,7,11));
+        System.out.println(LessBy10.lessBy10(1,7,10));
+        System.out.println(LessBy10.lessBy10(11,1,7));
     }
 }
