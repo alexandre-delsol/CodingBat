@@ -416,5 +416,9 @@ public class TestHarness {
         System.out.println(BlueTicket.blueTicket(9,1,0));
         System.out.println(BlueTicket.blueTicket(9,2,0));
         System.out.println(BlueTicket.blueTicket(6,1,4));
+        System.out.println("shareDigit");
+        System.out.println(ShareDigit.shareDigit(12,23));
+        System.out.println(ShareDigit.shareDigit(12,43));
+        System.out.println(ShareDigit.shareDigit(12,44));
     }
 }
