@@ -1,6 +1,7 @@
 package com.codingbat;
 
 import com.codingbat.array1.FirstLast6;
+import com.codingbat.array1.SameFirstLast;
 import com.codingbat.logic1.*;
 import com.codingbat.string1.*;
 import com.codingbat.warmup1.*;
@@ -429,5 +430,9 @@ public class TestHarness {
         System.out.println(FirstLast6.firstLast6(new int[]{1, 2, 6}));
         System.out.println(FirstLast6.firstLast6(new int[]{6, 1, 3, 6}));
         System.out.println(FirstLast6.firstLast6(new int[]{13, 6, 1, 2, 3}));
+        System.out.println("sameFirstLast");
+        System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,3}));
+        System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,3,1}));
+        System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,1}));
     }
 }
