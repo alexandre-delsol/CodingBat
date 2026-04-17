@@ -1,10 +1,13 @@
 package com.codingbat;
 
 import com.codingbat.array1.FirstLast6;
+import com.codingbat.array1.MakePi;
 import com.codingbat.array1.SameFirstLast;
 import com.codingbat.logic1.*;
 import com.codingbat.string1.*;
 import com.codingbat.warmup1.*;
+
+import java.util.Arrays;
 
 public class TestHarness {
     public static void main(String[] args) {
@@ -434,5 +437,7 @@ public class TestHarness {
         System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,3}));
         System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,3,1}));
         System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,1}));
+        System.out.println("makePi");
+        System.out.println(Arrays.toString(MakePi.makePi()));
     }
 }
