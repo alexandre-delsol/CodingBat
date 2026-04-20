@@ -1,5 +1,6 @@
 package com.codingbat;
 
+import com.codingbat.array1.CommonEnd;
 import com.codingbat.array1.FirstLast6;
 import com.codingbat.array1.MakePi;
 import com.codingbat.array1.SameFirstLast;
@@ -434,10 +435,14 @@ public class TestHarness {
         System.out.println(FirstLast6.firstLast6(new int[]{6, 1, 3, 6}));
         System.out.println(FirstLast6.firstLast6(new int[]{13, 6, 1, 2, 3}));
         System.out.println("sameFirstLast");
-        System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,3}));
-        System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,3,1}));
-        System.out.println(SameFirstLast.sameFirstLast(new int[]{1,2,1}));
+        System.out.println(SameFirstLast.sameFirstLast(new int[]{1, 2, 3}));
+        System.out.println(SameFirstLast.sameFirstLast(new int[]{1, 2, 3, 1}));
+        System.out.println(SameFirstLast.sameFirstLast(new int[]{1, 2, 1}));
         System.out.println("makePi");
         System.out.println(Arrays.toString(MakePi.makePi()));
+        System.out.println("commonEnd");
+        System.out.println(CommonEnd.commonEnd(new int[]{1, 2, 3}, new int[]{7, 3}));
+        System.out.println(CommonEnd.commonEnd(new int[]{1, 2, 1}, new int[]{7, 3, 2}));
+        System.out.println(CommonEnd.commonEnd(new int[]{1, 2, 1}, new int[]{1, 3}));
     }
 }
