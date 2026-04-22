@@ -442,8 +442,12 @@ public class TestHarness {
         System.out.println(CommonEnd.commonEnd(new int[]{1, 2, 1}, new int[]{7, 3, 2}));
         System.out.println(CommonEnd.commonEnd(new int[]{1, 2, 1}, new int[]{1, 3}));
         System.out.println("sum3");
-        System.out.println(Sum3.sum3(new int[]{1,2,3}));
-        System.out.println(Sum3.sum3(new int[]{5,11,2}));
-        System.out.println(Sum3.sum3(new int[]{7,0,0}));
+        System.out.println(Sum3.sum3(new int[]{1, 2, 3}));
+        System.out.println(Sum3.sum3(new int[]{5, 11, 2}));
+        System.out.println(Sum3.sum3(new int[]{7, 0, 0}));
+        System.out.println("rotateLeft3");
+        System.out.println(Arrays.toString(RotateLeft3.rotateLeft3(new int[]{1, 2, 3})));
+        System.out.println(Arrays.toString(RotateLeft3.rotateLeft3(new int[]{5, 11, 9})));
+        System.out.println(Arrays.toString(RotateLeft3.rotateLeft3(new int[]{7, 0, 0})));
     }
 }
