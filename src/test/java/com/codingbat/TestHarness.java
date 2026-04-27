@@ -449,5 +449,9 @@ public class TestHarness {
         System.out.println(Arrays.toString(RotateLeft3.rotateLeft3(new int[]{1, 2, 3})));
         System.out.println(Arrays.toString(RotateLeft3.rotateLeft3(new int[]{5, 11, 9})));
         System.out.println(Arrays.toString(RotateLeft3.rotateLeft3(new int[]{7, 0, 0})));
+        System.out.println("reverse3");
+        System.out.println(Arrays.toString(Reverse3.reverse3(new int[]{1, 2, 3})));
+        System.out.println(Arrays.toString(Reverse3.reverse3(new int[]{5, 11, 9})));
+        System.out.println(Arrays.toString(Reverse3.reverse3(new int[]{7, 0, 0})));
     }
 }
